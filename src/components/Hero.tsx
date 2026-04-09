@@ -54,7 +54,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href="#book"
+                href="https://booksy.com/en-us/929069_615-barbershop_barber-shop_123099_nashville-davidson?do=invite&inviteId=eyJpZCI6IjEyMzA5OSIsInVzZXJJZCI6IjkyOTA2OSJ9"
                 aria-label="Book an appointment at 615 Barbershop"
                 className="inline-flex items-center justify-center gap-2 bg-electric-blue hover:bg-electric-blue-dark text-white font-bold text-lg px-8 py-4 rounded-xl transition-all duration-200 shadow-lg shadow-electric-blue/30 hover:shadow-electric-blue/50 hover:-translate-y-0.5"
               >

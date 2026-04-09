@@ -73,7 +73,7 @@ export default function FindUs({ businessInfo }: FindUsProps) {
 
             {/* Book CTA */}
             <a
-              href="#book"
+              href="https://booksy.com/en-us/929069_615-barbershop_barber-shop_123099_nashville-davidson?do=invite"
               aria-label="Book an appointment at 615 Barbershop"
               className="flex items-center justify-center gap-2 bg-electric-blue hover:bg-electric-blue-dark text-white font-bold py-4 rounded-2xl transition-all duration-200 shadow-lg shadow-electric-blue/30 hover:-translate-y-0.5"
             >
