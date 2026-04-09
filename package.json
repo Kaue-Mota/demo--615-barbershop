@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "chmod +x node_modules/.bin/vite && vite build",
     "preview": "vite preview"
   },
+ 
+"vercel-build": "npm ci && npm run build",
+
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
