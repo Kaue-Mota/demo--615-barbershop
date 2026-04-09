@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-navy text-white font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .barber-pole-stripes {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      #DC2626 0px,
+      #DC2626 18px,
+      #f8fafc 18px,
+      #f8fafc 36px,
+      #1E90FF 36px,
+      #1E90FF 54px,
+      #f8fafc 54px,
+      #f8fafc 72px
+    );
+    background-size: 102px 102px;
+    animation: barberpole 2s linear infinite;
+  }
+
+  .card-glow:hover {
+    box-shadow: 0 0 0 1px #1E90FF40, 0 8px 32px #1E90FF20;
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #ffffff 0%, #1E90FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
